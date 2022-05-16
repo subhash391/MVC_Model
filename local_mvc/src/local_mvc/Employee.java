@@ -4,7 +4,6 @@ public class Employee {
 	//declaring variables
 	String EmpID;
 	String EmpName;
-	String EmpDept;
 	
 	//getter and setter methods
 	public String getEmpID() {
@@ -18,12 +17,6 @@ public class Employee {
 	}
 	public void setEmpName(String empName) {
 		EmpName = empName;
-	}
-	public void setEmpDept(String dpt) {
-		EmpDept = dpt;
-	}
-	public String getEmpDept() {
-		return EmpDept;
 	}
 	
 	
